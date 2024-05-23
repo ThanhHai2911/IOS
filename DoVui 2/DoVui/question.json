@@ -1,0 +1,586 @@
+[
+    {
+            "questionName": "Đuôi thì chẳng thấy, mà có hai đầu?",
+            "answers": ["Cây cầu", "Con rắn", "Con chó", "Con mèo"],
+            "correct": 0
+        },
+        {
+            "questionName": "Cái gì không có chân, không có đuôi, không có cơ thể mà có nhiều đầu?",
+            "answers": ["Cái bàn","Cầu truyền hình", "Cái ghế", "Cái xe"],
+            "correct": 1
+        },
+        {
+            "questionName": "Ba của Tèo gọi mẹ của Tý là em dâu, vậy ba của Tý gọi ba của Tèo là gì?",
+            "answers": ["Gọi là em trai", "Gọi là bác","Gọi là anh trai",  "Gọi là chú"],
+            "correct": 2
+        },
+        {
+            "questionName": "Phía trước bạn là quảng trường xanh, sau lưng bạn là quảng trường trắng, vậy quảng trường đỏ ở đâu?",
+            "answers": ["Ở Mỹ", "Ở Trung Quốc", "Ở Nhật Bản","Ở Nga"],
+            "correct": 3
+        },
+        {
+            "questionName": "Vào tháng nào con người sẽ ngủ ít nhất trong năm?",
+            "answers": ["Tháng 2", "Tháng 1", "Tháng 3", "Tháng 12"],
+            "correct": 0
+        },
+        {
+            "questionName": "Loại xe không có bánh thường thấy ở đâu?",
+            "answers": [ "Trên đường","Trong bàn cờ vua", "Trong nhà", "Trên sân bay"],
+            "correct": 1
+        },
+        {
+            "questionName": "Nhà nào lạnh lẽo nhưng ai cũng muốn tới?",
+            "answers": ["Nhà nghỉ", "Nhà hàng","Nhà băng", "Nhà sách"],
+            "correct": 2
+        },
+        {
+            "questionName": "Hôn mà bị hôn lại gọi là gì?",
+            "answers": [ "Hôn môi", "Hôn má", "Hôn tay","Đính hôn"],
+            "correct": 3
+        },
+        {
+            "questionName": "Tôi chu du khắp thế giới mà tôi vẫn ở nguyên một chỗ, tôi là ai?",
+            "answers": ["Tem thư", "Người du lịch", "Người lái xe", "Người đi bộ"],
+            "correct": 0
+        },
+        {
+            "questionName": "Từ nào trong tiếng Việt có chín mẫu tự h?",
+            "answers": [ "Chính trị","Chính", "Chính sách", "Chính phủ"],
+            "correct": 1
+        },
+        {
+            "questionName": "Bánh gì nghe tên đã thấy sung sướng?",
+            "answers": ["Bánh Khoái", "Bánh bao", "Bánh mì", "Bánh xèo"],
+            "correct": 0
+        },
+        {
+            "questionName": "Bánh gì nghe tên đã thấy đau?",
+            "answers": ["Bánh bao","Bánh Tét", "Bánh mì", "Bánh xèo"],
+            "correct": 1
+        },
+        {
+            "questionName": "Thứ gì mỗi ngày phải gỡ ra mới có công dụng?",
+            "answers": ["Đồng hồ", "Máy tính","Lịch treo tường","Điện thoại"],
+            "correct": 2
+        },
+        {
+            "questionName": "Cái gì luôn chạy không chờ ta bao giờ. Nhưng chúng ta vẫn có thể đứng một chỗ để chờ nó?",
+            "answers": ["Đồng hồ", "Xe bus", "Xe tăng", "Xe đạp"],
+    "correct": 0
+        },
+        {
+            "questionName": "Con gì biết đi nhưng người ta vẫn nói nó không biết đi?",
+            "answers": ["Con người","Con bò",  "Con mèo", "Con chó"],
+            "correct": 1
+        },
+        {
+            "questionName": "Xe nào không bao giờ giảm đi?",
+            "answers": ["Xe máy", "Xe đạp","Xe tăng",  "Xe bus"],
+            "correct": 2
+        },
+        {
+            "questionName": "Cái gì khi xài thì quăng đi, nhưng khi không xài thì lấy lại?",
+            "answers": ["Mỏ neo", "Điện thoại", "Máy tính", "Đồng hồ"],
+            "correct": 0
+        },
+        {
+            "questionName": "Ở đâu 1 con voi có thể ăn 1 cái xe?",
+            "answers": ["Trong rừng", "Cờ tướng", "Trong sở thú","Trên đường"],
+            "correct": 1
+        },
+        {
+            "questionName": "Cây nhang càng đốt càng ngắn. Vậy cây gì càng đốt nhiều càng dài?",
+            "answers": ["Cây thông", "Cây cỏ","Cây tre","Cây bàng"],
+            "correct": 2
+        },
+        {
+            "questionName": "Hạt đường và hạt cát, hạt nào dài hơn?",
+            "answers": ["Hạt đường", "Hạt cát", "Hạt gạo", "Hạt mè"],
+            "correct": 0
+        },
+
+        {
+            "questionName": "Từ gì bỏ đầu thành tên quốc gia, mất đuôi ra một loài chim?",
+            "answers": ["Cúc", "Hoa", "Mèo", "Chó"],
+            "correct": 0
+        },
+        {
+            "questionName": "Chữ gì mất đầu là hỏi, mất đuôi trả lời?",
+            "answers": ["Chữ Tai", "Chữ Mèo", "Chữ Chó", "Chữ Cá"],
+            "correct": 0
+        },
+        {
+            "questionName": "Cái gì con người mua để ăn nhưng không bao giờ ăn?",
+            "answers": ["Bát, đũa, dĩa, thìa…", "Quần, áo, mũ, giày...", "Xe hơi, xe máy, xe đạp...", "Nhà, đất, chung cư..."],
+            "correct": 0
+        },
+        {
+            "questionName": "Cái gì 2 lỗ: có gió thì sống, không gió thì chết?",
+            "answers": ["Lỗ tai", "Lỗ mắt", "Lỗ miệng","Lỗ mũi"],
+            "correct": 3
+        },
+        {
+            "questionName": "Đồng gì mà đa số ai cũng thích?",
+            "answers": [ "Đồng cỏ","Đồng tiền", "Đồng hồ", "Đồng phục"],
+            "correct": 1
+        },
+        {
+            "questionName": "Cái gì càng cất lại càng thấy?",
+            "answers": ["Cất xe", "Cất tiền", "Cất nhà", "Cất đồ"],
+            "correct": 2
+        },
+        {
+            "questionName": "Chim nào thích dùng ngón tay tác động vật lý?",
+            "answers": ["Chim cốc", "Chim sẻ", "Chim bồ câu", "Chim chích chòe"],
+            "correct": 0
+        },
+        {
+            "questionName": "Sữa gì khi uống không được đứng yên 1 chỗ?",
+            "answers": [ "Sữa chua","Sữa lắc", "Sữa đậu nành", "Sữa bò"],
+            "correct": 1
+        },
+        {
+    "questionName": "Một người năm nay đã 40 tuổi. Hỏi người đó có bao nhiêu ngày sinh nhật?",
+            "answers": ["365 ngày", "40 ngày","1 ngày",  "14.600 ngày"],
+            "correct": 2
+        },
+        {
+            "questionName": "Túi gì nghe tên tưởng ngọt, hoá ra đắng ngắt khó lọt khỏi người?",
+            "answers": ["Túi xách", "Túi nilon", "Túi giấy","Túi mật"],
+            "correct": 3
+        },
+        {
+            "questionName": "Trong cuộc sống, con người hay dùng vật này để đánh chính mình, đố là cái gì?",
+            "answers": ["Bàn chải tóc","Bàn chải đánh răng",  "Bàn chải quét nhà", "Bàn chải rửa bát"],
+            "correct": 1
+        },
+        {
+            "questionName": "Một xương sống, một đống xương sườn là cái gì?",
+            "answers": ["Cái lược", "Cái ghế", "Cái bàn", "Cái giường"],
+            "correct": 0
+        },
+        {
+            "questionName": "Hồ gì phụ nữ có chồng rất ghét?",
+            "answers": ["Hồ Gươm", "Hồ Tây","Hồ ly tinh",  "Hồ Ba Bể"],
+            "correct": 2
+        },
+        {
+            "questionName": "Cái gì của con chim nhưng lại trên cơ thể con người?",
+            "answers": ["Vết chân chim", "Vết cắn chim", "Vết đậu chim", "Vết đá chim"],
+            "correct": 0
+        },
+        {
+            "questionName": "Con nào ít ai dám ăn, một kẻ lầm lỗi cả bày chịu theo?",
+            "answers": [ "Con chuột","Con sâu", "Con rắn", "Con dơi"],
+            "correct": 1
+        },
+        {
+            "questionName": "Con vật gì là thần nhưng thêm dấu lại thành ác ma?",
+            "answers": ["Con mèo", "Con chó", "Con rùa", "Con chuột"],
+            "correct": 2
+        },
+        {
+            "questionName": "Có cổ nhưng không có miệng là cái gì?",
+            "answers": ["Cái quần", "Cái mũ", "Cái giày", "Cái áo" ],
+            "correct": 3
+        },
+        {
+            "questionName": "Sông gì vốn dĩ ồn ào?",
+            "answers": ["Sông La", "Sông Hồng", "Sông Mê Kông", "Sông Đà"],
+            "correct": 0
+        },
+        {
+            "questionName": "Vừa bằng hạt đỗ, ăn giỗ cả làng. Là con gì?",
+            "answers": ["Con ruồi", "Con mèo", "Con chó", "Con chuột"],
+            "correct": 0
+        },
+        {
+            "questionName": "Tôi có 4 cái chân, 1 cái lưng nhưng không có cơ thể. Tôi là ai?",
+            "answers": ["Cái ghế","Cái bàn","Cái giường", "Cái tủ"],
+            "correct": 1
+        },
+
+        {
+            "questionName": "Vì tao tao phải đánh tao, vì tao tao phải đánh mày. Hỏi đang làm gì?",
+            "answers": ["Đập muỗi", "Đánh nhau", "Đánh bài", "Đánh đàn"],
+            "correct": 0
+        },
+        {
+            "questionName": "Bàn gì xe ngựa sớm chiều giơ ra?",
+            "answers": ["Bàn ăn", "Bàn cờ tướng","Bàn học", "Bàn làm việc"],
+    "correct": 1
+        },
+        {
+            "questionName": "Bàn gì mà lại bước gần bước xa?",
+            "answers": ["Bàn tay", "Bàn học","Bàn chân","Bàn ăn"],
+            "correct": 2
+        },
+        {
+            "questionName": "Con gì có mũi có lưỡi hẳn hoi. Có sống không chết người đời cầm luôn?",
+            "answers": ["Con dao", "Con kéo", "Con bút", "Chiếc chìa khóa"],
+            "correct": 0
+        },
+        {
+            "questionName": "Hột để sống: Một tên. Hột nấu lên: tên khác. Trong nhà nông các bác. Đều có mặt cả hai?",
+            "answers": ["Hột đậu","Hột gạo","Hột mè", "Hột cà phê"],
+            "correct": 1
+        },
+        {
+            "questionName": "Da thịt như than. Áo choàng như tuyết. Giúp người trị bệnh. Mà tên chẳng hiền.",
+            "answers": ["Gà nướng", "Gà rán","Gà ác", "Gà hấp"],
+            "correct": 2
+        },
+        {
+            "questionName": "Mặt gì tròn trịa trên cao. Toả ra những ánh nắng đào đẹp thay?",
+            "answers": ["Mặt trời", "Mặt trăng", "Mặt đất", "Mặt hồ"],
+            "correct": 0
+        },
+        {
+            "questionName": "Mặt gì mát dịu đêm nay. Cây đa, chú cuội, đứng đây rõ ràng?",
+            "answers": ["Mặt trời","Mặt trăng","Mặt đất", "Mặt hồ"],
+            "correct": 1
+        },
+        {
+            "questionName": "Mặt gì bằng phẳng thênh thang. Người đi muôn lối dọc ngang phố phường?",
+            "answers": [ "Mặt trời", "Mặt trăng","Mặt đất", "Mặt hồ"],
+            "correct": 2
+        },
+        {
+            "questionName": "Tôi có 4 cái chân, 1 cái lưng nhưng không có cơ thể. Tôi là ai?",
+            "answers": ["Cái ghế", "Cái giường", "Cái tủ","Cái bàn"],
+            "correct": 3
+        },
+
+        {
+          "questionName": "Bốn chân đạp đất từ bi, ăn chén sứ hoặc chén sành không ngại. Đó là gì?",
+          "answers": ["Bàn ăn","Tủ chén bát", "Ghế", "Cái bàn"],
+          "correct": 1
+        },
+        {
+          "questionName": "Ở đỉnh cao nhất trên đầu, không đen như tóc, màu đỏ rực rỡ, lúc khỏe đẹp như mặt trời, khi đau yếu, màu sắc xám dần. Đó là gì?",
+          "answers": ["Đỉnh núi", "Mũ bảo hiểm", "Mào của con gà trống","Mũ lưỡi trai"],
+          "correct": 2
+        },
+       
+       {
+         "questionName": "Cây khô, một lá, bốn năm cành, đường đi uốn khúc, tay anh mệt mỏi, gặp kẻ tiểu nhân, lặng im không nói, chờ người tài giỏi mới được tôn vinh. Đó là gì?",
+         "answers": ["Cây cầu","Cây đàn",  "Cây cỏ", "Cây bút"],
+         "correct": 1
+       },
+       {
+         "questionName": "Lịch nào có thời gian dài nhất?",
+         "answers": ["Lịch sử", "Lịch âm", "Lịch dương", "Lịch vạn niên"],
+         "correct": 0
+       },
+       {
+         "questionName": "Xã nào có số lượng người đông nhất?",
+     "answers": ["Xã Đông Anh","Xã hội",  "Xã Bắc Sơn", "Xã Nam Trung"],
+         "correct": 1
+       },
+       {
+         "questionName": "Con đường nào dài nhất?",
+         "answers": [ "Đường sắt", "Đường phố","Đường đời", "Đường quốc lộ"],
+         "correct": 2
+       },
+       {
+         "questionName": "Quần áo nào có diện tích rộng nhất?",
+         "answers": ["Quần jeans", "Quần short", "Quần dài","Quần đảo"],
+         "correct": 3
+       },
+       {
+         "questionName": "Môn thể thao nào càng thắng càng thua?",
+         "answers": ["Môn đua xe", "Môn bóng đá", "Môn bơi lội", "Môn cầu lông"],
+         "correct": 0
+       },
+       {
+         "questionName": "Con gì có đầu dê mà mình là ốc?",
+         "answers": ["Con chó","Con dốc",  "Con mèo", "Con chuột"],
+         "correct": 1
+       },
+       {
+         "questionName": "Con gì sống khi bị đập, chết khi không bị đập?",
+         "answers": ["Con trùng","Con tim",  "Con chuột", "Con rắn"],
+         "correct": 1
+       },
+       {
+         "questionName": "Hạt gì có chiều dài lớn nhất?",
+         "answers": [ "Hạt dẻ", "Hạt đậu","Hạt mưa", "Hạt gạo"],
+         "correct": 2
+       },
+       {
+         "questionName": "Đồ vật nào có thể đi nằm, đứng cũng nằm, nhưng nằm lại đứng?",
+         "answers": ["Cái bàn", "Cái ghế","Bàn chân",  "Cái giường"],
+         "correct": 2
+       },
+       {
+         "questionName": "Khi sở thú bị cháy, con vật nào chạy ra đầu tiên?",
+         "answers": [ "Con hổ","Con người", "Con sư tử", "Con voi"],
+         "correct": 1
+       },
+       {
+         "questionName": "Trên hang đá, dưới hang đá, giữa có con vật gì?",
+         "answers": ["Cái miệng", "Con chuột", "Con rắn", "Con dơi"],
+         "correct": 0
+       },
+       {
+         "questionName": "Đường nằm ngay thẳng tắp, hai cống hai bên, trên hàng gương, dưới hàng lược. Đó là gì?",
+         "answers": [ "Cái bàn", "Cái ghế","Bộ mặt", "Cái giường"],
+         "correct": 2
+       },
+       {
+         "questionName": "Thân em có nửa là chuột và nửa là chim. Ngày thì treo chân ngủ, tối thì tìm mồi bay. Trời ban tai mắt giỏi thay, tối tăm tối mịt vẫn bay vù vù. Đó là con vật gì?",
+         "answers": ["Con chim","Con dơi",  "Con chuột", "Con mèo"],
+         "correct": 1
+       },
+       {
+         "questionName": "Có tám thứ được đề cập trong câu 37. Đó là gì?",
+         "answers": ["Con đỉa, con rắn, cái ống bơ, ngọn sóng, ngọn gió, con muỗi, con cua, con ốc", "Con chuột, con mèo, con chó, con gà, con vịt, con heo, con bò, con cừu", "Con hổ, con sư tử, con voi, con khỉ, con cừu, con dê, con ngựa, con lợn", "Con chim, con cánh cụt, con đại bàng, con chim cánh cụt, con chim sẻ, con chim hải âu, con chim bồ câu, con chim cánh cụt"],
+         "correct": 0
+       },
+       {
+     "questionName": "Đôi khi đi bằng bốn chân, đôi khi đi bằng hai chân, đôi khi đi bằng ba chân, và đôi khi đi bằng tám chân. Đó là gì?",
+         "answers": ["Con chó","Con người",  "Con mèo", "Con chuột"],
+         "correct": 2
+       },
+       {
+         "questionName": "Đồ vật nào có kích thước bằng một thước nhưng không thể vượt qua?",
+         "answers": [ "Cái bàn","Cái bóng", "Cái ghế", "Cái giường"],
+         "correct": 1
+       },
+       {
+         "questionName": "Hai cô nằm nghỉ hai phòng. Ngày thì mở cửa ra trông, đêm thì đóng cửa lấp trong ra ngoài. Đó là gì?",
+         "answers": ["Đôi mắt", "Cái cửa", "Cái bàn", "Cái ghế"],
+         "correct": 0
+       },
+       {
+         "questionName": "Chân đỏ mình đen. Đầu đội hoa sen. Lên chầu Thượng đế. Là gì?",
+         "answers": ["Cây đào", "Cây mai", "Cây lý","Cây hương nhang"],
+         "correct": 3
+       },
+
+         {
+         "questionName": "Một vật không có cành hay cội, chỉ có một lá. Ta có thể trao tay. Là gì?",
+         "answers": ["Lá cây","Lá bài", "Lá sen", "Lá dứa"],
+         "correct": 1
+       },
+       {
+         "questionName": "Một vật đi thì ăn trước, ngồi trên. Về thì lấm lét đứng bên xó hè. Là gì?",
+         "answers": ["Cái ghế", "Cái bàn", "Cái giường", "Cái thảm"],
+         "correct": 0
+       },
+       {
+         "questionName": "Một vật có hình dạng vuông vắn, có tay ngắn và chân dài. Trèo qua hai hòn động thiên thai và ôm lấy nàng tiên nữ. Là gì?",
+         "answers": ["Cái cầu", "Cái thang","Cái còng số 8", "Cái cầu thang"],
+         "correct": 2
+       },
+       {
+         "questionName": "Một vật có thân làm từ đồng, da bọc sắt. Có hai con mắt ở trên lưng và cái chân ở giữa bụng. Là gì?",
+         "answers": ["Con ốc nhồi","Con ốc sên", "Con ốc mượn hồn", "Con ốc đảo"],
+         "correct": 1
+       },
+       {
+         "questionName": "Một vật có ruột chấm vừng đen, khi ăn vào mát và bổ. Là gì?",
+         "answers": ["Quả dứa", "Quả dừa", "Quả xoài", "Quả mít"],
+         "correct": 0
+       },
+       {
+         "questionName": "Một vật có chân nhưng không biết đi. Quanh năm suốt tháng đứng ở một nơi. Là gì?",
+         "answers": ["Cái ghế", "Cái giường","Cái bàn", "Cái thảm"],
+         "correct": 2
+       },
+       {
+         "questionName": "Một cây nhỏ nhắn, hạt nó nuôi người. Chín vàng nơi nơi, dân làng đi hái. Là gì?",
+         "answers": [ "Cây mía","Cây lúa", "Cây ngo", "Cây khoai"],
+         "correct": 1
+       },
+       {
+         "questionName": "Một vật có thân nhỏ, đi khắp nơi để giúp người. Hiến trọn tấm thân cho người, không chê chuộng và không quản công. Là gì?",
+         "answers": ["Cây bút", "Cây cọ", "Cây thông", "Chổi lông gà"],
+         "correct": 0
+       },
+       
+       {
+           "questionName": "Mồm bò mà không phải mồm bò. Đố là con gì?",
+               "answers": ["Con bò", "Con ốc sên", "Con mèo", "Con chó"],
+               "correct": 1
+           },
+           {
+               "questionName": "Mình bằng con sâu, Nhà ba căn hai chái, thò đầu thò đuôi. Là gì?",
+               "answers": ["Đèn dầu", "Con ốc sên", "Con rắn", "Con chó"],
+               "correct": 0
+           },
+              {
+               "questionName": "Chân đạp miền thanh địa, Đầu đội mũ bình thiên, Mình thì bận áo mã tiên, Ban ngày đôi ba vợ, tối nằm riêng kêu trời. Là gì?",
+               "answers": ["Con ốc sên","Gà trống",  "Con rắn", "Con chó"],
+               "correct": 1
+           },
+           {
+               "questionName": "Trên đầu đội sắc vua ban, Dưới thời yếm thắm, dây vàng xum xoe, Thần linh đã gọi thì về, Ngồi trên mâm ngọc, gươm kề sau lưng. Là gì?",
+               "answers": ["Con ốc sên","Gà trống cúng",  "Con rắn", "Con chó"],
+               "correct": 1
+           },
+           {
+               "questionName": "Một mẹ đẻ được bọc con, Đứa nào đứa nấy đầu tròn như nhau, Xót thương số phận thương đau, Nên chúng lần lượt đập đầu ra đi. Là gì?",
+               "answers": ["Con ốc sên","Bao diêm",  "Con rắn", "Con chó"],
+               "correct": 1
+           },
+           {
+               "questionName": "Cái gì không có trống, chỉ có mái, Cả đời chỉ đái, không biết ị. Là gì?",
+               "answers": ["Con ốc sên", "Con rắn","Mái nhà",  "Con chó"],
+               "correct": 2
+           },
+           {
+               "questionName": "Cái gì của ta, Chặt không đứt, dứt không ra? Là cái gì?",
+               "answers": ["Cái bóng", "Con ốc sên", "Con rắn", "Con chó"],
+               "correct": 0
+           },
+           {
+               "questionName": "Đem thân che nắng cho đời, Rồi ra mang tiếng là người chả khôn? Là gì?",
+               "answers": ["Con ốc sên", "Con rắn","Mành che cửa",  "Con chó"],
+               "correct": 2
+           },
+           {
+               "questionName": "Lá gì ăn sống thì lành, nấu canh thì độc? Là lá gì?",
+               "answers": ["Lá trầu", "Lá sen", "Lá dứa", "Lá lốt"],
+               "correct": 0
+           },
+           {
+               "questionName": "Mẹ vuông, con tròn, Mỗi lứa sòn sòn, Đẻ 20 đứa. Là gì?",
+               "answers": ["Bao thuốc lá", "Hộp quẹt", "Bao diêm", "Hộp diêm"],
+               "correct": 0
+           },
+           {
+               "questionName": "Chữ gì: Tai nghe, miệng nói, đít làm vua. Là chữ gì?",
+               "answers": ["Chữ Tâm","Chữ Thánh",  "Chữ Tình", "Chữ Từ"],
+               "correct": 1
+           },
+           {
+               "questionName": "Đầu đen như quạ, Dạ trắng như bông, Lưng thắt cổ bồng, Đít mang lọ nước. Là cái gì?",
+               "answers": ["Cái đèn pin","Cái đèn dầu",  "Cái đèn sưởi", "Cái đèn tròn"],
+               "correct": 1
+           },
+           {
+       "questionName": "Mình vàng mà thắt đai vàng một mình dọn dẹp sửa sang trong nhà. Là cái gì?",
+               "answers": ["Cái chổi", "Cái cây lau nhà", "Cái cây quét nhà", "Cái cây lau bụi"],
+               "correct": 0
+           },
+           {
+               "questionName": "Có sống mà chẳng có lưng, Có lưỡi có mũi mà không có mồm. Là cái gì?",
+               "answers": ["Cái kéo", "Cái búa","Cái dao",  "Cái cưa"],
+               "correct": 2
+           },
+           {
+               "questionName": "Hai con mà ở hai phòng, Ngày thì mở cửa ra trông, Đêm thì đóng cửa lấp chông ra ngoài. Là gì?",
+               "answers": ["Con tai","Con mắt",  "Con mũi", "Con miệng"],
+               "correct": 2
+           },
+           {
+               "questionName": "Lưng trước bụng sau, Con mắt ở dưới cái đầu ở trên. Là cái gì?",
+               "answers": ["Cái chân", "Cái tay", "Cái đầu", "Cái mặt"],
+               "correct": 0
+           },
+           {
+               "questionName": "Năm ông cầm hai cái sào, Lùa đàn cò trắng chạy vào trong hang. Là gì?",
+               "answers": ["Ăn phở","Ăn cơm",  "Ăn bún", "Ăn mì"],
+               "correct": 1
+           },
+           {
+               "questionName": "Tên em không thiếu không thừa, Tấm lòng vàng ngọt, ngon vừa lòng anh. Quả gì nói nhanh? Là gì?",
+               "answers": ["Quả đu đủ", "Quả dưa hấu", "Quả táo", "Quả cam"],
+               "correct": 0
+           },
+           {
+               "questionName": "Thuở bé em có 2 sừng, Đến tuổi nửa chừng mặt đẹp như hoa, Ngoài hai mươi tuổi về già, Quá ba mươi lại mọc ra hai sừng. Là gì?",
+               "answers": ["Mặt trời","Mặt trăng",  "Sao Hỏa", "Sao Thổ"],
+               "correct": 1
+           },
+           {
+               "questionName": "Vừa bằng cái vung, Vùng xuống ao, Đào chẳng thấy, Lấy chẳng được. Là gì?",
+               "answers": ["Bóng cây, bóng người","Bóng mặt trăng",  "Bóng đèn, bóng đá", "Bóng bàn, bóng chày"],
+               "correct": 1
+           },
+           {
+               "questionName": "Mèo tam thể lai mèo tam thể thì ra con gì. Là con gì?",
+               "answers": [ "Mèo tam thể đẻ được", "Mèo tam thể đẻ mèo bốn thể","Mèo tam thể không đẻ được", "Mèo tam thể đẻ mèo hai thể"],
+               "correct": 2
+           },
+           {
+               "questionName": "Cây chi nhánh sắt, cội ngà. Đố chàng nho sĩ biết là cây chi? Là cây gì?",
+               "answers": ["Cây bàng", "Cây dừa", "Cây chuối","Cây ô"],
+               "correct": 3
+           },
+           {
+               "questionName": "Con chi không ăn, không nói, không cười, Nghiêng lưng mà chịu với người hôm mai. Là con gì?",
+               "answers": ["Con đà lót ván, sập ngựa", "Con mèo, con chó", "Con chuột, con nhện", "Con rắn, con ốc"],
+               "correct": 0
+           },
+           {
+               "questionName": "Ở nhà có một bà ăn cơm hớt. Là gì?",
+       "answers": ["Cái thìa","Ðôi đũa cả",  "Cái nĩa", "Cái muỗng"],
+               "correct": 1
+           },
+           {
+               "questionName": "Ở nhà có bà hay liếm. Là cái gì?",
+               "answers": ["Cái cây lau nhà","Cái chổi",  "Cái cây quét nhà", "Cái cây lau bụi"],
+               "correct": 1
+           },
+           {
+               "questionName": "Loẹt quẹt như đuôi gà thiến, Liến thiến như ngọn thối lai, Chúa mất tôi ngơ ngẩn kiếm hoài, Tôi mất chúa nằm im lẳng lặng. Là cái gì?",
+               "answers": ["Cái chổi", "Cái cây lau nhà", "Cái cây quét nhà", "Cái cây lau bụi"],
+               "correct": 0
+           },
+           {
+               "questionName": "Cổ cao cao, cẳng cao cao, Chân đen cánh trắng ra vào đồng xanh, Cảnh quê thêm đẹp bức tranh, Sao đành chịu tiếng ma lanh nhử mồi. Là con gì?",
+               "answers": ["Con cò", "Con vịt", "Con gà", "Con vịt"],
+               "correct": 0
+           },
+           {
+               "questionName": "Bốn cây cột đình, Hai đinh nhọn hoắt, Hai cái lúc lắc, Một cái tòng teng, Trùng trục da đen, Lại ưa đầm vũng? Là con gì?",
+               "answers": ["Con bò", "Con ngựa","Con trâu",  "Con lừa"],
+               "correct": 2
+           },
+       {
+               "questionName": "Mình bằng hạt gạo, Mỏ bằng hạt kê, Hỏi đi đâu về? Đi làm thợ mộc. Là con gì?",
+               "answers": ["Con mọt", "Con chuột", "Con kiến", "Con gián"],
+               "correct": 0
+           },
+               {
+               "questionName": "Cái đuôi hết ngắn lại dài, Tiếc chi cứ chắc lưỡi hoài vách phên, Tên thường tên chữ, hai tên, Đố bốn phía, đố ba bên tên gì? Là con gì?",
+               "answers": [ "Con thằn lằn, con rắn","Con thằn lằn, con thạch sùng", "Con thằn lằn, con giun", "Con thằn lằn, con sâu"],
+               "correct": 1
+           },
+           {
+               "questionName": "Củ gì da cam, Thịt lại giòn giòn, Ăn thì ngon lắm, Lại sáng mắt cơ? Là củ gì?",
+               "answers": ["Củ cải", "Củ hành","Củ cà rốt",  "Củ tỏi"],
+               "correct": 2
+           },
+           {
+               "questionName": "Củ tròn như cái bát, Áo màu xanh non, Quanh thân có lá, Xào nấu rất ngon, Tên như tiêu được, Đố bạn củ gì?",
+               "answers": ["Củ cải", "Củ hành","Củ su hào",  "Củ tỏi"],
+               "correct": 2
+           },
+           {
+               "questionName": "Thân em vừa trắng lại vừa tròn, Bảy nổi ba chìm với nước non, Rắn nát mắc dầu tay kẻ nặn, Mà em vẫn giữ tấm lòng son. Là gì?",
+               "answers": ["Bánh bao","Bánh trôi nước",  "Bánh mì", "Bánh cuốn"],
+               "correct": 1
+           },
+           {
+               "questionName": "Thân dài thượt, Ruột thẳng băng, Khi thịt bị cắt khỏi chân, Thì ruột lòi dần vẫn thẳng như rươi? Là cái gì?",
+               "answers": ["Cái bút chì", "Cái bút mực", "Cái bút bi", "Cái bút lông"],
+       "correct": 0
+           },
+           {
+               "questionName": "Đầu đuôi vuông vắn như nhau, Thân chia nhiều đốt rất mau rất đều, Tính tình chân thức đáng yêu, Muốn biết dài ngắn mọi điều có em? Là cái gì?",
+               "answers": ["Cái thước đo","Cái thước kẻ",  "Cái thước thợ", "Cái thước thủy"],
+               "correct": 1
+           },
+           {
+               "questionName": "Cày trên đồng ruộng trắng phau, Khát xuống uống nước giếng sâu đen ngòm? Là cái gì?",
+               "answers": ["Cái bút mực", "Cái bút chì", "Cái bút bi", "Cái bút lông"],
+               "correct": 0
+           },
+       
+      
+        
+]
