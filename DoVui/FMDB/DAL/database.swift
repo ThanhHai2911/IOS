@@ -119,6 +119,9 @@ class Database{
                         let dapan3 = results.string(forColumn: DAPANC) ?? ""
                         let dapan4 = results.string(forColumn: DAPAND) ?? ""
                         let dapan = results.string(forColumn: DAPAN) ?? ""
+                        
+                        let question = Question(id: id, cauhoi: cauhoi, dapan1: dapan1, dapan2: dapan2, dapan3: dapan3, dapan4: dapan4, dapan: dapan)
+                        questions.append(question)
                     }
                 } catch {
                     os_log("Doc du lieu khong thanh cong")

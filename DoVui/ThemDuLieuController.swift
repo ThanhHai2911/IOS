@@ -10,7 +10,7 @@ import UIKit
 class ThemDuLieuController:UIViewController{
     //Dinh nghia doi tuong truy xuat CSDL
     private let db = Database()
-    
+    private let cauHoiID = "cauhoi"
     @IBOutlet weak var cauHoi: UITextField!
     @IBOutlet weak var dapan1: UITextField!
     @IBOutlet weak var dapAn2: UITextField!
@@ -19,6 +19,12 @@ class ThemDuLieuController:UIViewController{
     @IBOutlet weak var dapAnDung: UITextField!
     override func viewDidLoad() {
             super.viewDidLoad()
+        cauHoi.text = ""
+        dapan1.text = ""
+        dapAn2.text = ""
+        dapAn3.text = ""
+        dapAn4.text = ""
+        dapAnDung.text = ""
         }
     
     @IBAction func themDL(_ sender: UIButton) {
@@ -51,5 +57,6 @@ class ThemDuLieuController:UIViewController{
         dapAn4.text = ""
         dapAnDung.text = ""
     }
+
     
 }

@@ -9,6 +9,13 @@ import UIKit
 
 class CauHoiCell: UITableViewCell {
 
+    
+    @IBOutlet weak var cauHoi: UILabel!
+    @IBOutlet weak var dapAn1: UILabel!
+    @IBOutlet weak var dapAn2: UILabel!
+    @IBOutlet weak var dapAn3: UILabel!
+    @IBOutlet weak var dapAn4: UILabel!
+    @IBOutlet weak var dapAnDung: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
