@@ -15,8 +15,6 @@
 		1B18E27E2BFC2CB800819887 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B18E2762BFC2CB800819887 /* FMDatabase.m */; };
 		1B18E2822BFC72FD00819887 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18E2812BFC72FD00819887 /* database.swift */; };
 		1B18E2842BFC83FE00819887 /* ThemDuLieuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B18E2832BFC83FE00819887 /* ThemDuLieuController.swift */; };
-		1B19D1572BF5EE3300C8C39C /* CauHoiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19D1562BF5EE3300C8C39C /* CauHoiCell.swift */; };
-		1B19D1592BF5EE6000C8C39C /* CauHoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B19D1582BF5EE6000C8C39C /* CauHoi.swift */; };
 		1B32A34C2BF1B1BA00CE1DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A34B2BF1B1BA00CE1DB3 /* AppDelegate.swift */; };
 		1B32A34E2BF1B1BA00CE1DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A34D2BF1B1BA00CE1DB3 /* SceneDelegate.swift */; };
 		1B32A3502BF1B1BA00CE1DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A34F2BF1B1BA00CE1DB3 /* ViewController.swift */; };
@@ -28,9 +26,7 @@
 		1B32A3702BF1B1BC00CE1DB3 /* DoVuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A36F2BF1B1BC00CE1DB3 /* DoVuiUITests.swift */; };
 		1B32A3722BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A3712BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift */; };
 		1B727F452BF9CD30000955A0 /* DangKyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B727F442BF9CD30000955A0 /* DangKyController.swift */; };
-		1BA5705E2C001F4D00BCA445 /* CauHoiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5705D2C001F4D00BCA445 /* CauHoiController.swift */; };
 		1BBBA4BA2BF7B0C200689556 /* ThongTinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */; };
-		1BD442942BFF3F94008F657F /* Food2024 in Resources */ = {isa = PBXBuildFile; fileRef = 1BD442932BFF3F94008F657F /* Food2024 */; };
 		E302B38B2BF5FAED007568D8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E302B38A2BF5FAED007568D8 /* GameViewController.swift */; };
 		E302B38E2BF606C4007568D8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E302B38D2BF606C4007568D8 /* Question.swift */; };
 		E39CE5092BF681670093D87E /* question.json in Resources */ = {isa = PBXBuildFile; fileRef = E39CE5082BF681670093D87E /* question.json */; };
@@ -69,8 +65,6 @@
 		1B18E2792BFC2CB800819887 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = DoVui/FMDB/src/FMDatabaseQueue.h; sourceTree = SOURCE_ROOT; };
 		1B18E2812BFC72FD00819887 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
 		1B18E2832BFC83FE00819887 /* ThemDuLieuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemDuLieuController.swift; sourceTree = "<group>"; };
-		1B19D1562BF5EE3300C8C39C /* CauHoiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauHoiCell.swift; sourceTree = "<group>"; };
-		1B19D1582BF5EE6000C8C39C /* CauHoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauHoi.swift; sourceTree = "<group>"; };
 		1B32A3482BF1B1BA00CE1DB3 /* DoVui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoVui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B32A34B2BF1B1BA00CE1DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B32A34D2BF1B1BA00CE1DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,9 +80,7 @@
 		1B32A36F2BF1B1BC00CE1DB3 /* DoVuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoVuiUITests.swift; sourceTree = "<group>"; };
 		1B32A3712BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoVuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1B727F442BF9CD30000955A0 /* DangKyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKyController.swift; sourceTree = "<group>"; };
-		1BA5705D2C001F4D00BCA445 /* CauHoiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CauHoiController.swift; sourceTree = "<group>"; };
 		1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongTinController.swift; sourceTree = "<group>"; };
-		1BD442932BFF3F94008F657F /* Food2024 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Food2024; path = ../HocTap/HK4/LTIOS/Code/Food2024; sourceTree = "<group>"; };
 		E302B38A2BF5FAED007568D8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E302B38D2BF606C4007568D8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		E39CE5082BF681670093D87E /* question.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = question.json; sourceTree = "<group>"; };
@@ -167,7 +159,6 @@
 		1B19D14C2BF5E99000C8C39C /* controls */ = {
 			isa = PBXGroup;
 			children = (
-				1B19D1562BF5EE3300C8C39C /* CauHoiCell.swift */,
 			);
 			name = controls;
 			sourceTree = "<group>";
@@ -175,7 +166,6 @@
 		1B19D1552BF5ED6500C8C39C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1B19D1582BF5EE6000C8C39C /* CauHoi.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -183,7 +173,6 @@
 		1B32A33F2BF1B1B900CE1DB3 = {
 			isa = PBXGroup;
 			children = (
-				1BD442932BFF3F94008F657F /* Food2024 */,
 				1B32A34A2BF1B1BA00CE1DB3 /* DoVui */,
 				1B32A3642BF1B1BC00CE1DB3 /* DoVuiTests */,
 				1B32A36E2BF1B1BC00CE1DB3 /* DoVuiUITests */,
@@ -255,7 +244,6 @@
 				1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */,
 				1B727F442BF9CD30000955A0 /* DangKyController.swift */,
 				1B18E2832BFC83FE00819887 /* ThemDuLieuController.swift */,
-				1BA5705D2C001F4D00BCA445 /* CauHoiController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -375,7 +363,6 @@
 			files = (
 				1B32A35B2BF1B1BC00CE1DB3 /* LaunchScreen.storyboard in Resources */,
 				E39CE5092BF681670093D87E /* question.json in Resources */,
-				1BD442942BFF3F94008F657F /* Food2024 in Resources */,
 				1B32A3582BF1B1BC00CE1DB3 /* Assets.xcassets in Resources */,
 				1B32A3532BF1B1BA00CE1DB3 /* Main.storyboard in Resources */,
 			);
@@ -406,16 +393,13 @@
 				E302B38B2BF5FAED007568D8 /* GameViewController.swift in Sources */,
 				E302B38E2BF606C4007568D8 /* Question.swift in Sources */,
 				1B18E27E2BFC2CB800819887 /* FMDatabase.m in Sources */,
-				1B19D1572BF5EE3300C8C39C /* CauHoiCell.swift in Sources */,
 				1B18E2842BFC83FE00819887 /* ThemDuLieuController.swift in Sources */,
-				1BA5705E2C001F4D00BCA445 /* CauHoiController.swift in Sources */,
 				1B32A3502BF1B1BA00CE1DB3 /* ViewController.swift in Sources */,
 				1B18E27B2BFC2CB800819887 /* FMDatabaseQueue.m in Sources */,
 				1B18E27C2BFC2CB800819887 /* FMResultSet.m in Sources */,
 				1B727F452BF9CD30000955A0 /* DangKyController.swift in Sources */,
 				1B32A3562BF1B1BA00CE1DB3 /* DoVui.xcdatamodeld in Sources */,
 				1B18E27A2BFC2CB800819887 /* FMDatabaseAdditions.m in Sources */,
-				1B19D1592BF5EE6000C8C39C /* CauHoi.swift in Sources */,
 				1B18E27D2BFC2CB800819887 /* FMDatabasePool.m in Sources */,
 				1B32A34C2BF1B1BA00CE1DB3 /* AppDelegate.swift in Sources */,
 				1B18E2822BFC72FD00819887 /* database.swift in Sources */,

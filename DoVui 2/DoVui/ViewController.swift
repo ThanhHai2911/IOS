@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController{	
+class ViewController: UIViewController{
     
 
     @IBOutlet weak var dangky: UILabel!
@@ -25,14 +25,18 @@ class ViewController: UIViewController{
         present(vc, animated: true)
     }
     //Thoat ung dung
-    @IBAction func thoatUngDung(_ sender: UIButton) {
+    @IBAction func thaoUngDung(_ sender: Any) {
         let alert = UIAlertController(title: "Thoát ứng dụng", message: "Bạn có muốn thoát ứng dụng không?", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Huỷ", style: .cancel, handler: nil))
             alert.addAction(UIAlertAction(title: "Đồng ý", style: .destructive, handler: { _ in
                 exit(0)
             }))
             self.present(alert, animated: true, completion: nil)
-
     }
+    //Xem bang xep hang
+    @IBAction func bangXepHang(_ sender: Any) {
+       
+    }
+    
 }
 

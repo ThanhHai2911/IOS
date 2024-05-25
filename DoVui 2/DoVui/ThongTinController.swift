@@ -25,11 +25,8 @@ class ThongTinController: UIViewController{
     }
     //Thoat ung dung
     @IBAction func thoat(_ sender: UIButton) {
-        let alert = UIAlertController(title: "Thoát ứng dụng", message: "Bạn có muốn thoát ứng dụng không?", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Huỷ", style: .cancel, handler: nil))
-            alert.addAction(UIAlertAction(title: "Đồng ý", style: .destructive, handler: { _ in
-                exit(0)
-            }))
-            self.present(alert, animated: true, completion: nil)
+        let vc = storyboard?.instantiateViewController(identifier: "manhinhchinh") as! ViewController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
 }

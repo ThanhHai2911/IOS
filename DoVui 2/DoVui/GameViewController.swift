@@ -37,15 +37,22 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //Lấy dữ liệu từ json
-        if let loadedQuestions = Question.loadQuestions(from: "question") {
-                  questions = loadedQuestions
-              } else {
-                  print("Khong the loat cau hoi")
-              }
+        let loadedQuestions = db.docDL()
+            
+            // Kiểm tra xem mảng loadedQuestions có rỗng không
+            if loadedQuestions.isEmpty {
+                print("Không thể tải câu hỏi")
+            } else {
+                questions = loadedQuestions
+            }
+             
         //goi ham
          displayQuestion()
         startTime()
         
+       
+            
+       
     }
     
     //Ham dem nguoc thoi gian
@@ -75,10 +82,11 @@ class GameViewController: UIViewController {
     // Xuat ra Man Hinh du lieu
     func displayQuestion(){
         let correntQuestion = questions[questionNowIndex]
-        QuestionLabel.text = correntQuestion.questionName
+        QuestionLabel.text = correntQuestion.cauhoi
         let btnAnswers = [AnswerA,AnswerB,AnswerC,AnswerD]
+        let answers = [correntQuestion.dapan1, correntQuestion.dapan2, correntQuestion.dapan3, correntQuestion.dapan4]
         for (index, button) in btnAnswers.enumerated() {
-            button?.setTitle(correntQuestion.answers[index], for: .normal)
+            button?.setTitle(answers[index], for: .normal)
             button?.tag = index
             button?.backgroundColor = UIColor.clear
             button?.isEnabled = true
@@ -100,8 +108,14 @@ class GameViewController: UIViewController {
     // Ham random
     func ramDom()->Int{
         var randomIndex: Int
-        // Chọn ngẫu nhiên câu hỏi mảng questions
-        randomIndex = Int(arc4random_uniform(UInt32(questions.count)))
+        var usedIndexes = Set<Int>()
+        repeat {
+            // Ramdom cau hoi
+            randomIndex = Int(arc4random_uniform(UInt32(questions.count)))
+           } while usedIndexes.contains(randomIndex) // kiem tra xem cau hoi da ramdom chu
+           
+           // them cau hoi da chon vao danh sach
+           usedIndexes.insert(randomIndex)
      
         return randomIndex
 
@@ -114,10 +128,11 @@ class GameViewController: UIViewController {
         
         print("index_CauHoi \(questionNowIndex)");
         let correntQuestion = questions[questionNowIndex]
-        QuestionLabel.text = correntQuestion.questionName
+        QuestionLabel.text = correntQuestion.cauhoi
         let btnAnswers = [AnswerA,AnswerB,AnswerC,AnswerD]
+        let answers = [correntQuestion.dapan1, correntQuestion.dapan2, correntQuestion.dapan3, correntQuestion.dapan4]
         for (index, button) in btnAnswers.enumerated() {
-            button?.setTitle(correntQuestion.answers[index], for: .normal)
+            button?.setTitle(answers[index], for: .normal)
             button?.tag = index
             button?.backgroundColor = UIColor.clear
             button?.isEnabled = true
@@ -130,14 +145,14 @@ class GameViewController: UIViewController {
     
     @IBAction func answerButtonTapped(_ sender: UIButton) {
         let selectedAnswerIndex = sender.tag
-        let correct = questions[questionNowIndex].correct
+        let correct = questions[questionNowIndex].dapan
         let btnAnswers = [AnswerA, AnswerB, AnswerC, AnswerD]
         stopTime()
         // Tắt tất cả các button
                 for button in btnAnswers {
                            button?.isEnabled = false
                        }
-        if selectedAnswerIndex == correct{
+        if selectedAnswerIndex == Int(correct){
             count += 10
            print("Bạn đã trả lời đúngg!")
             thonBao.text = "Bạn đã trả lời đúngg!"
