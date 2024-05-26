@@ -24,7 +24,15 @@ class Database{
     private let DAPANC = "dapan3"
     private let DAPAND = "dapan4"
     private let DAPAN = "dapan"
-    
+    //2. Bang thong tin nguoi dung
+    private let USER_TABLE_NAME = "users"
+    private let USER_ID = "user_id"
+    private let USERNAME = "name"
+    //2. Bang diem nguoi dung
+    private let COUNT_TABLE_NAME = "diem"
+    private let COUNT_ID = "count_id"
+    private let COUNT = "count"
+
     //MARK: Constructors
     init(){
         //Lay ve tat ca cac thu muc lien quan den document cua ung dung ios
@@ -47,10 +55,31 @@ class Database{
             + "\(DAPAND) TEXT, "
             + "\(DAPAN) INTEGER)"
             let _ = tableCrerate(sql: sql, tableName: MEAL_TABLE_NAME)
+            // 2. Bang users
+            let sql2 = """
+            CREATE TABLE IF NOT EXISTS \(USER_TABLE_NAME) (
+                \(USER_ID) INTEGER PRIMARY KEY AUTOINCREMENT,
+                \(USERNAME) TEXT)
+            """
+            let _ = tableCrerate(sql: sql2, tableName: USER_TABLE_NAME)
+            // 3. Bang diem
+            let sql3 = """
+            CREATE TABLE IF NOT EXISTS \(COUNT_TABLE_NAME) (
+                \(COUNT_ID) INTEGER PRIMARY KEY AUTOINCREMENT,
+                \(COUNT) INTEGER)
+            """
+            let _ = tableCrerate(sql: sql3, tableName: COUNT_TABLE_NAME)
             //Them cau hoi mac dinh
             //themDLMacDinh()
+            
             //Xoa toan bo du lieu trong databse
             //xoaToanBoDL()
+            
+            //Xoa toan bo du lieu nguoi dung
+            //xoaToanBoNguoiDung()
+            
+            //Xoa toan bo diem
+            //xoaToanBoDiem()
             
         }else{
             os_log("Khi tao csdl khong thanh cong")
@@ -265,12 +294,113 @@ class Database{
                     let sql = "DELETE FROM \(MEAL_TABLE_NAME)"
                     do {
                         try database!.executeUpdate(sql, values: nil)
-                        os_log("Xóa tất cả dữ liệu thành công")
+                        os_log("Xoa tat ca du lieu thanh cong")
                     } catch {
-                        os_log("Xóa tất cả dữ liệu không thành công: %@", error.localizedDescription)
+                        os_log("Xoa tat ca du lieu khong thanh cong")
                     }
                     close()
                 }
+        }
+        // Them nguoi dung vao CSDL
+        func themNguoiDung(username: String) {
+            if open() {
+                let sql = "INSERT INTO \(USER_TABLE_NAME) (\(USERNAME)) VALUES (?)"
+                do {
+                    try database!.executeUpdate(sql, values: [username])
+                    os_log("Them nguoi dung thanh cong")
+                } catch {
+                    os_log("Them nguoi dung khong thanh cong")
+                }
+                close()
             }
+        }
+        // Hien thi thong tin nguoi dung
+        func docNguoiDung() -> [User] {
+            var users = [User]()
+            if open() {
+                let sql = "SELECT * FROM \(USER_TABLE_NAME)"
+                do {
+                    let results = try database!.executeQuery(sql, values: nil)
+                    while results.next() {
+                        let user_id = Int(results.int(forColumn: USER_ID))
+                        let username = results.string(forColumn: USERNAME) ?? ""
+                        
+                        users.append(User(user_id: user_id, username: username))
+                    }
+                } catch {
+                    os_log("Doc du lieu nguoi dung khong thanh cong!", error.localizedDescription)
+                }
+                close()
+            }
+            return users
+        }
+        
+        // Ham xoa toan bo du lieu nguoi dung trong databse
+        func xoaToanBoNguoiDung() {
+            if open() {
+                let sql = "DELETE FROM \(USER_TABLE_NAME)"
+                do {
+                    try database!.executeUpdate(sql, values: nil)
+                    os_log("Xoa tat ca nguoi dung thanh cong")
+                } catch {
+                    os_log("Xoa tat ca nguoi dung khong thanh cong")
+                }
+                close()
+            }
+        }
+        // Them diem vao CSDL
+        func themDiem(count: Int) {
+            if open() {
+                let sql = "INSERT INTO \(COUNT_TABLE_NAME) (\(COUNT)) VALUES (?)"
+                do {
+                    try database!.executeUpdate(sql, values: [count])
+                    os_log("Them diem thanh cong")
+                } catch {
+                    os_log("Them diem khong thanh cong")
+                }
+                close()
+            }
+        }
+        // Hien thi diem nguoi dung
+        func docDiem() -> [Count] {
+            var diem = [Count]()
+            if open() {
+                let sql = "SELECT * FROM users"
+                do {
+                    let results = try database!.executeQuery(sql, values: nil)
+                    while results.next() {
+                        let count_id = Int(results.int(forColumn: COUNT_ID))
+                        let count = Int(results.int(forColumn: COUNT))
+                        
+                        diem.append(Count(count_id: count_id, count: count))
+                    }
+                } catch {
+                    os_log("Doc du lieu diem khong thanh cong!", error.localizedDescription)
+                }
+                close()
+            }
+            return diem
+        }
+        
+        // Ham xoa toan bo du lieu diem  trong databse
+        func xoaToanBoDiem() {
+            if open() {
+                let sql = "DELETE FROM \(COUNT_TABLE_NAME)"
+                do {
+                    try database!.executeUpdate(sql, values: nil)
+                    os_log("Xoa tat ca diem thanh cong")
+                } catch {
+                    os_log("Xoa tat ca diem khong thanh cong")
+                }
+                close()
+            }
+        }
 }
+    
+struct User {
+    let user_id: Int
+    let username: String}
+struct Count {
+    let count_id: Int
+    let count: Int}
 

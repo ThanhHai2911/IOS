@@ -35,7 +35,9 @@ class ViewController: UIViewController{
     }
     //Xem bang xep hang
     @IBAction func bangXepHang(_ sender: Any) {
-       
+        let vc = storyboard?.instantiateViewController(identifier: "bangxephang") as! BangXepHangController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     
 }

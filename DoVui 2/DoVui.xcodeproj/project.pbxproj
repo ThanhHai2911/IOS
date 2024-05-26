@@ -25,6 +25,7 @@
 		1B32A3662BF1B1BC00CE1DB3 /* DoVuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A3652BF1B1BC00CE1DB3 /* DoVuiTests.swift */; };
 		1B32A3702BF1B1BC00CE1DB3 /* DoVuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A36F2BF1B1BC00CE1DB3 /* DoVuiUITests.swift */; };
 		1B32A3722BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32A3712BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift */; };
+		1B6464792C037570009110D0 /* BangXepHangController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6464782C037570009110D0 /* BangXepHangController.swift */; };
 		1B727F452BF9CD30000955A0 /* DangKyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B727F442BF9CD30000955A0 /* DangKyController.swift */; };
 		1BBBA4BA2BF7B0C200689556 /* ThongTinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */; };
 		E302B38B2BF5FAED007568D8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E302B38A2BF5FAED007568D8 /* GameViewController.swift */; };
@@ -79,6 +80,7 @@
 		1B32A36B2BF1B1BC00CE1DB3 /* DoVuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoVuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B32A36F2BF1B1BC00CE1DB3 /* DoVuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoVuiUITests.swift; sourceTree = "<group>"; };
 		1B32A3712BF1B1BC00CE1DB3 /* DoVuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoVuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B6464782C037570009110D0 /* BangXepHangController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangXepHangController.swift; sourceTree = "<group>"; };
 		1B727F442BF9CD30000955A0 /* DangKyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKyController.swift; sourceTree = "<group>"; };
 		1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongTinController.swift; sourceTree = "<group>"; };
 		E302B38A2BF5FAED007568D8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 				1BBBA4B92BF7B0C200689556 /* ThongTinController.swift */,
 				1B727F442BF9CD30000955A0 /* DangKyController.swift */,
 				1B18E2832BFC83FE00819887 /* ThemDuLieuController.swift */,
+				1B6464782C037570009110D0 /* BangXepHangController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				1B18E27A2BFC2CB800819887 /* FMDatabaseAdditions.m in Sources */,
 				1B18E27D2BFC2CB800819887 /* FMDatabasePool.m in Sources */,
 				1B32A34C2BF1B1BA00CE1DB3 /* AppDelegate.swift in Sources */,
+				1B6464792C037570009110D0 /* BangXepHangController.swift in Sources */,
 				1B18E2822BFC72FD00819887 /* database.swift in Sources */,
 				1B32A34E2BF1B1BA00CE1DB3 /* SceneDelegate.swift in Sources */,
 			);
