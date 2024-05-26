@@ -24,7 +24,7 @@ class DangKyController: UIViewController{
         }
                 
         // them du lieu
-        db.themNguoiDung(username: textName)
+        //db.themNguoiDung(username: textName)
         print("Them nguoi dung thanh cong")
         
         let vc = storyboard?.instantiateViewController(identifier: "manhinhchinh") as! ViewController

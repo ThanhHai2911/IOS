@@ -732,10 +732,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgk-YP-Qm5">
-                                <rect key="frame" x="20" y="125.66666666666669" width="224" height="759"/>
+                                <rect key="frame" x="20" y="126" width="388" height="759"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="224" id="BuC-zg-2F6"/>
-                                    <constraint firstAttribute="height" constant="759" id="J5y-sw-cEy"/>
+                                    <constraint firstAttribute="width" constant="388" id="DZx-Ao-MVn"/>
+                                    <constraint firstAttribute="height" constant="759" id="He0-l1-4WH"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Ten">
@@ -748,38 +748,20 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKe-1y-kif">
-                                <rect key="frame" x="270" y="125.66666666666669" width="138" height="759"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="759" id="EMN-Kx-BYa"/>
-                                    <constraint firstAttribute="width" constant="138" id="wVX-ou-vdY"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Diem">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="24"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uHp-KY-YvG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="BKe-1y-kif" firstAttribute="top" secondItem="u6E-ZI-CzY" secondAttribute="bottom" constant="35" id="1eo-bF-csQ"/>
-                            <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="BKe-1y-kif" secondAttribute="trailing" constant="20" id="D5J-HI-TIb"/>
+                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="20" id="7tq-E3-WiG"/>
+                            <constraint firstItem="uHp-KY-YvG" firstAttribute="bottom" secondItem="vgk-YP-Qm5" secondAttribute="bottom" constant="7" id="K8U-6w-7eG"/>
+                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="top" secondItem="u6E-ZI-CzY" secondAttribute="bottom" constant="35.329999999999998" id="KwE-wd-OfF"/>
                             <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="u6E-ZI-CzY" secondAttribute="trailing" constant="63" id="M9L-sV-8fr"/>
-                            <constraint firstItem="BKe-1y-kif" firstAttribute="leading" secondItem="vgk-YP-Qm5" secondAttribute="trailing" constant="26" id="Puw-sF-O08"/>
                             <constraint firstItem="u6E-ZI-CzY" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="64" id="gGM-EY-uDv"/>
+                            <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="vgk-YP-Qm5" secondAttribute="trailing" constant="20" id="ieG-6j-0jG"/>
                             <constraint firstItem="u6E-ZI-CzY" firstAttribute="top" secondItem="uHp-KY-YvG" secondAttribute="top" id="uh5-xb-2gE"/>
-                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="top" secondItem="u6E-ZI-CzY" secondAttribute="bottom" constant="35" id="x8q-uT-jKQ"/>
-                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="20" id="xeu-NI-Jg0"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="diem" destination="BKe-1y-kif" id="15R-hs-cjB"/>
                         <outlet property="name" destination="vgk-YP-Qm5" id="hFL-k5-8UL"/>
                     </connections>
                 </viewController>

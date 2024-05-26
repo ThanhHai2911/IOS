@@ -28,9 +28,6 @@ class Database{
     private let USER_TABLE_NAME = "users"
     private let USER_ID = "user_id"
     private let USERNAME = "name"
-    //2. Bang diem nguoi dung
-    private let COUNT_TABLE_NAME = "diem"
-    private let COUNT_ID = "count_id"
     private let COUNT = "count"
 
     //MARK: Constructors
@@ -59,16 +56,11 @@ class Database{
             let sql2 = """
             CREATE TABLE IF NOT EXISTS \(USER_TABLE_NAME) (
                 \(USER_ID) INTEGER PRIMARY KEY AUTOINCREMENT,
-                \(USERNAME) TEXT)
+                \(USERNAME) TEXT,
+                 \(COUNT) INTEGER)
             """
             let _ = tableCrerate(sql: sql2, tableName: USER_TABLE_NAME)
-            // 3. Bang diem
-            let sql3 = """
-            CREATE TABLE IF NOT EXISTS \(COUNT_TABLE_NAME) (
-                \(COUNT_ID) INTEGER PRIMARY KEY AUTOINCREMENT,
-                \(COUNT) INTEGER)
-            """
-            let _ = tableCrerate(sql: sql3, tableName: COUNT_TABLE_NAME)
+        
             //Them cau hoi mac dinh
             //themDLMacDinh()
             
@@ -76,10 +68,8 @@ class Database{
             //xoaToanBoDL()
             
             //Xoa toan bo du lieu nguoi dung
-            //xoaToanBoNguoiDung()
+            xoaToanBoNguoiDung()
             
-            //Xoa toan bo diem
-            //xoaToanBoDiem()
             
         }else{
             os_log("Khi tao csdl khong thanh cong")
@@ -302,11 +292,11 @@ class Database{
                 }
         }
         // Them nguoi dung vao CSDL
-        func themNguoiDung(username: String) {
+    func themNguoiDung(username: String, count: Int) {
             if open() {
-                let sql = "INSERT INTO \(USER_TABLE_NAME) (\(USERNAME)) VALUES (?)"
+                let sql = "INSERT INTO \(USER_TABLE_NAME) (\(USERNAME) \(COUNT) VALUES (?, ?)"
                 do {
-                    try database!.executeUpdate(sql, values: [username])
+                    try database!.executeUpdate(sql, values: [username, count])
                     os_log("Them nguoi dung thanh cong")
                 } catch {
                     os_log("Them nguoi dung khong thanh cong")
@@ -324,8 +314,9 @@ class Database{
                     while results.next() {
                         let user_id = Int(results.int(forColumn: USER_ID))
                         let username = results.string(forColumn: USERNAME) ?? ""
+                        let count = Int(results.int(forColumn: COUNT))
                         
-                        users.append(User(user_id: user_id, username: username))
+                        users.append(User(user_id: user_id, username: username,count: count))
                     }
                 } catch {
                     os_log("Doc du lieu nguoi dung khong thanh cong!", error.localizedDescription)
@@ -348,59 +339,12 @@ class Database{
                 close()
             }
         }
-        // Them diem vao CSDL
-        func themDiem(count: Int) {
-            if open() {
-                let sql = "INSERT INTO \(COUNT_TABLE_NAME) (\(COUNT)) VALUES (?)"
-                do {
-                    try database!.executeUpdate(sql, values: [count])
-                    os_log("Them diem thanh cong")
-                } catch {
-                    os_log("Them diem khong thanh cong")
-                }
-                close()
-            }
-        }
-        // Hien thi diem nguoi dung
-        func docDiem() -> [Count] {
-            var diem = [Count]()
-            if open() {
-                let sql = "SELECT * FROM users"
-                do {
-                    let results = try database!.executeQuery(sql, values: nil)
-                    while results.next() {
-                        let count_id = Int(results.int(forColumn: COUNT_ID))
-                        let count = Int(results.int(forColumn: COUNT))
-                        
-                        diem.append(Count(count_id: count_id, count: count))
-                    }
-                } catch {
-                    os_log("Doc du lieu diem khong thanh cong!", error.localizedDescription)
-                }
-                close()
-            }
-            return diem
-        }
-        
-        // Ham xoa toan bo du lieu diem  trong databse
-        func xoaToanBoDiem() {
-            if open() {
-                let sql = "DELETE FROM \(COUNT_TABLE_NAME)"
-                do {
-                    try database!.executeUpdate(sql, values: nil)
-                    os_log("Xoa tat ca diem thanh cong")
-                } catch {
-                    os_log("Xoa tat ca diem khong thanh cong")
-                }
-                close()
-            }
-        }
+
 }
     
 struct User {
     let user_id: Int
-    let username: String}
-struct Count {
-    let count_id: Int
-    let count: Int}
+    let username: String
+    let count: Int
+}
 

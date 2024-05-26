@@ -12,11 +12,9 @@ class BangXepHangController:UIViewController{
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var diem: UILabel!
     var users: [User] = []
-    var count: [Count] = []
     override func viewDidLoad() {
         super.viewDidLoad()
         hienThiNguoiDung()
-        hienThiDiem()
     }
     //Ham hien thi ten nguoi dung
     func hienThiNguoiDung(){
@@ -24,24 +22,12 @@ class BangXepHangController:UIViewController{
         if users.isEmpty {
             name.text = "Không có dữ liệu người dùng"
         } else {
+            //Hien thi toan bo du lieu co trong csdl
             var userText = ""
             for user in users {
-                userText += "\(user.username)\n\n"
+                userText += "\(user.username) - \(user.count)"
             }
             name.text = userText
-        }
-    }
-    //Ham hien thi diem cua nguoi dung
-    func hienThiDiem(){
-        count = db.docDiem()
-        if count.isEmpty {
-            diem.text = "Không diem người dùng"
-        } else {
-            var countText = ""
-            for diem in count {
-                countText += "\(diem.count)\n\n"
-            }
-            diem.text = countText
         }
     }
 }
