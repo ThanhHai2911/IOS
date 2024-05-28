@@ -43,7 +43,7 @@ class Question: Codable {
     var dapan4: String
     var dapan: Int
     
-    //Mark:contructer
+    //MARK:Properties
     init(id:Int,cauhoi:String,dapan1:String,dapan2: String,dapan3: String,dapan4: String,dapan: Int){
         self.id = id
         self.cauhoi = cauhoi

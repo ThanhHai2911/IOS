@@ -21,14 +21,16 @@ class GameViewController: UIViewController {
     
     @IBOutlet weak var Count: UILabel!
     
+    var receivedText: String?
+    
     var questions: [Question] = []
-       
+  
     //Dinh nghia doi tuong truy xuat CSDL
     private let db = Database()
     
     var time: Timer?
     //Thoi gian dem nguoc
-    var timeCount = 10
+    var timeCount = 30
     //giá trị của mảng để lấy câu hỏi -> random
     var questionNowIndex = 0
     // điểm
@@ -74,6 +76,8 @@ class GameViewController: UIViewController {
             vc.receivedCount = count //Lay thong tin diem qua man hinh thong tin
             vc.notificationMessage = "Hết thời gian trả lời câu hỏi!" //Dua thong bao qua man hinh thong tin
             present(vc, animated: true)
+            //Ham them nguoi dung
+            themNguoiDung()
         }
         
     }
@@ -185,11 +189,21 @@ class GameViewController: UIViewController {
                    present(vc, animated: true)
                }
                stopTime()
+               themNguoiDung()
            }
         Count.text = String(count)
         
        }
-
+        //Ham them du lieu vao bang xep hang
+        func themNguoiDung(){
+            if let text = receivedText {
+                
+                db.themNguoiDung(username: text, count:count)
+                 print("\(text)-\(count)")
+            }else{
+                print(count)
+            }
+        }
 
 }
 

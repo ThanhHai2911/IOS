@@ -22,16 +22,14 @@ class ViewController: UIViewController{
     @IBAction func startGame(){
         let vc = storyboard?.instantiateViewController(identifier: "game") as! GameViewController
         vc.modalPresentationStyle = .fullScreen
+        vc.receivedText = receivedText
         present(vc, animated: true)
     }
     //Thoat ung dung
     @IBAction func thaoUngDung(_ sender: Any) {
-        let alert = UIAlertController(title: "Thoát ứng dụng", message: "Bạn có muốn thoát ứng dụng không?", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Huỷ", style: .cancel, handler: nil))
-            alert.addAction(UIAlertAction(title: "Đồng ý", style: .destructive, handler: { _ in
-                exit(0)
-            }))
-            self.present(alert, animated: true, completion: nil)
+        let vc = storyboard?.instantiateViewController(identifier: "dangky") as! DangKyController
+        vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
     }
     //Xem bang xep hang
     @IBAction func bangXepHang(_ sender: Any) {

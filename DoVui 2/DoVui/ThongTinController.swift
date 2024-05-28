@@ -25,7 +25,7 @@ class ThongTinController: UIViewController{
     }
     //Thoat ung dung
     @IBAction func thoat(_ sender: UIButton) {
-        let vc = storyboard?.instantiateViewController(identifier: "manhinhchinh") as! ViewController
+        let vc = storyboard?.instantiateViewController(identifier: "bangxephang") as! BangXepHangController
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
     }

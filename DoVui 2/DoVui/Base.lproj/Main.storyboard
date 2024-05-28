@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uRa-pP-Xvn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -11,7 +11,7 @@
         <!--Dang Ky Controller-->
         <scene sceneID="fXY-P7-Tb4">
             <objects>
-                <viewController id="uRa-pP-Xvn" customClass="DangKyController" customModule="DoVui" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="dangky" id="uRa-pP-Xvn" customClass="DangKyController" customModule="DoVui" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w8b-GF-E2y">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,9 +138,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Thoát">
+                                        <fragment content="Đăng Ký">
                                             <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="36" name="Helvetica"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -477,9 +477,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
-                                        <fragment content="Home">
+                                        <fragment content="Bảng Xếp Hạng">
                                             <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <font key="NSFont" size="36" name="Helvetica"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -607,7 +607,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="YF4-FX-Byx">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="YF4-FX-Byx">
                                 <rect key="frame" x="20" y="122" width="388" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ju8-Bu-kFP"/>
@@ -731,38 +731,59 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgk-YP-Qm5">
-                                <rect key="frame" x="20" y="126" width="388" height="759"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cP-93-Tsf">
+                                <rect key="frame" x="77" y="731" width="288" height="72"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="388" id="DZx-Ao-MVn"/>
-                                    <constraint firstAttribute="height" constant="759" id="He0-l1-4WH"/>
+                                    <constraint firstAttribute="height" constant="72" id="91D-Bg-in2"/>
+                                    <constraint firstAttribute="width" constant="288" id="IJZ-AY-wZN"/>
                                 </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Ten">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" metaFont="system" size="24"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Home">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="36" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="thoat:" destination="Fqv-46-SkI" eventType="touchUpInside" id="m7s-EI-cYR"/>
+                                    <action selector="thoat:" destination="8yl-gg-Nog" eventType="touchUpInside" id="omM-aN-JQo"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Cl4-hp-1LN">
+                                <rect key="frame" x="20" y="115" width="388" height="600"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="gpn-Ln-750"/>
+                                    <constraint firstAttribute="width" constant="388" id="zyI-7e-oos"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uHp-KY-YvG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="20" id="7tq-E3-WiG"/>
-                            <constraint firstItem="uHp-KY-YvG" firstAttribute="bottom" secondItem="vgk-YP-Qm5" secondAttribute="bottom" constant="7" id="K8U-6w-7eG"/>
-                            <constraint firstItem="vgk-YP-Qm5" firstAttribute="top" secondItem="u6E-ZI-CzY" secondAttribute="bottom" constant="35.329999999999998" id="KwE-wd-OfF"/>
+                            <constraint firstItem="Cl4-hp-1LN" firstAttribute="top" secondItem="u6E-ZI-CzY" secondAttribute="bottom" constant="24.329999999999998" id="J6P-ct-WXh"/>
                             <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="u6E-ZI-CzY" secondAttribute="trailing" constant="63" id="M9L-sV-8fr"/>
+                            <constraint firstItem="uHp-KY-YvG" firstAttribute="bottom" secondItem="5cP-93-Tsf" secondAttribute="bottom" constant="89" id="Uor-cl-8ow"/>
+                            <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="Cl4-hp-1LN" secondAttribute="trailing" constant="20" id="Vrv-1G-qcb"/>
+                            <constraint firstItem="5cP-93-Tsf" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="77" id="YSz-y4-Eud"/>
+                            <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="5cP-93-Tsf" secondAttribute="trailing" constant="63" id="Zcg-Jg-1C2"/>
                             <constraint firstItem="u6E-ZI-CzY" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="64" id="gGM-EY-uDv"/>
-                            <constraint firstItem="uHp-KY-YvG" firstAttribute="trailing" secondItem="vgk-YP-Qm5" secondAttribute="trailing" constant="20" id="ieG-6j-0jG"/>
                             <constraint firstItem="u6E-ZI-CzY" firstAttribute="top" secondItem="uHp-KY-YvG" secondAttribute="top" id="uh5-xb-2gE"/>
+                            <constraint firstItem="5cP-93-Tsf" firstAttribute="top" secondItem="Cl4-hp-1LN" secondAttribute="bottom" constant="16" id="wQN-zb-VRA"/>
+                            <constraint firstItem="Cl4-hp-1LN" firstAttribute="leading" secondItem="uHp-KY-YvG" secondAttribute="leading" constant="20" id="yv6-AN-ft9"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="name" destination="vgk-YP-Qm5" id="hFL-k5-8UL"/>
+                        <outlet property="name" destination="Cl4-hp-1LN" id="Wrd-IP-0Jj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NiG-aR-leE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -774,6 +795,9 @@
         <image name="anh" width="75" height="75"/>
         <image name="anh icon" width="333.33334350585938" height="333.33334350585938"/>
         <image name="anh nen" width="170.66667175292969" height="170.66667175292969"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
